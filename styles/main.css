@@ -78,6 +78,7 @@ article {
   margin: auto;
   background: #ededed;
   padding-bottom: 7vh;
+  position: relative;
 }
 
 .question-wrapper {
@@ -152,7 +153,7 @@ label, input[type="radio"], input[type="range"] {
   width: 100vw;
   background: rgba(88, 88, 88, 0.55);
   display: flex;
-  display: none; /* ALERTDELETEME - REMOVE THIS line only WHEN STYLING THE MODAL*/
+  /*display: none;  ALERTDELETEME - REMOVE THIS line only WHEN STYLING THE MODAL*/
   justify-content: center;
   align-items: center;
 }
@@ -227,4 +228,50 @@ input[type="range"] {
 }
 .red {
   background: rgb(218, 45, 123);
+}
+
+.question{
+  width: 94%;
+  height: 125px;
+  background-color: white;
+  margin: 20px 20px;
+  padding: 15px 15px;
+  position: relative;
+  
+}
+.answer{
+  width: 45%;
+  height: 15px;
+  }
+
+.a{
+  position: absolute;
+  left: 15px;
+  top: 50px;
+}
+
+.b{
+  position: absolute;
+  right: 5px;
+  top: 50px;
+}
+
+.c{
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+}
+
+.d{
+  position: absolute;
+  right: 5px;
+  bottom: 15px;
+}
+
+#gear {
+  height: 23px;
+  width: 23px;
+  position: absolute;
+  top: 15px;
+  right: 80px;
 }
